@@ -393,7 +393,7 @@
     }
 
     /* WOW active */
-    new WOW().init();
+    // new WOW().init();
 
     var darkLightMode = function() {
         const darkLightBtn = document.querySelector(".dark-light-mode");
