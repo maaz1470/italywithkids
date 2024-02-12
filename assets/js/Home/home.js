@@ -161,10 +161,10 @@ window.addEventListener("load", function () {
         this.document.body.appendChild(modernizr_js);
 
 
-        // // Bootstrap JS
-        // const bootstrap_js = document.createElement('script')
-        // bootstrap_js.src = './assets/js/vendor/bootstrap.min.js'
-        // this.document.body.appendChild(bootstrap_js);
+        // Jquery Slick Nav JS
+        const jquery_slik_nav = document.createElement('script')
+        jquery_slik_nav.src = './assets/js/vendor/jquery.slicknav.js'
+        this.document.body.appendChild(jquery_slik_nav);
 
 
         
