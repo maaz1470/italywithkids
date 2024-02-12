@@ -181,11 +181,18 @@ window.addEventListener("load", function () {
 
 
 
-        // Nice Select JS
+        // Way Points JS
         const waypoints_js = document.createElement('script')
         waypoints_js.src = './assets/js/vendor/waypoints.min.js'
         this.document.body.appendChild(waypoints_js);
 
+
+
+
+        // Sticky JS
+        const sticky_js = document.createElement('script')
+        sticky_js.src = './assets/js/vendor/jquery.sticky.js'
+        this.document.body.appendChild(sticky_js);
 
         
 
