@@ -167,6 +167,19 @@ window.addEventListener("load", function () {
         this.document.body.appendChild(jquery_slik_nav);
 
 
+        // Magnific JS
+        const magnific_popup = document.createElement('script')
+        magnific_popup.src = './assets/js/vendor/jquery.magnific-popup.js'
+        this.document.body.appendChild(magnific_popup);
+
+
+
+        // Nice Select JS
+        const nice_select = document.createElement('script')
+        nice_select.src = './assets/js/vendor/jquery.nice-select.min.js'
+        this.document.body.appendChild(nice_select);
+
+
         
 
     }, 4000)
