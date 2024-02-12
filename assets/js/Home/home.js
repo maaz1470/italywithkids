@@ -117,12 +117,7 @@ window.addEventListener("load", function () {
     }, 3200)
 
     setTimeout(() => {
-        // Google Font
-        const google_font = document.createElement('link');
-        google_font.rel = 'stylesheet';
-        google_font.href = 'https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@400;500;700;900&display=swap';
-        document.head.appendChild(google_font);
-
+        
         // Google Tag Manager
         const google_tag_manager = document.createElement('script')
         google_tag_manager.src = 'https://www.googletagmanager.com/gtag/js?id=G-BNQFG674Q0';
@@ -205,6 +200,16 @@ window.addEventListener("load", function () {
 
         gtag('config', 'G-BNQFG674Q0');
     }, 4200)
+
+
+    this.setTimeout(() => {
+        // Google Font
+        const google_font = document.createElement('link');
+        google_font.rel = 'stylesheet';
+        google_font.href = 'https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@400;500;700;900&display=swap';
+        document.head.appendChild(google_font);
+
+    },5000)
 
 
 
