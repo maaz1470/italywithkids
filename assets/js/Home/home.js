@@ -180,6 +180,13 @@ window.addEventListener("load", function () {
         this.document.body.appendChild(nice_select);
 
 
+
+        // Nice Select JS
+        const waypoints_js = document.createElement('script')
+        waypoints_js.src = './assets/js/vendor/waypoints.min.js'
+        this.document.body.appendChild(waypoints_js);
+
+
         
 
     }, 4000)
