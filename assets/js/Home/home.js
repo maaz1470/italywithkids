@@ -203,6 +203,7 @@ window.addEventListener("load", function () {
 
 
     this.setTimeout(() => {
+        
         // Google Font
         const google_font = document.createElement('link');
         google_font.rel = 'stylesheet';
