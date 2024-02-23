@@ -17,10 +17,10 @@ Redirect /thetop30kidfriendlythingstodoinsardinia /the-top-30-kid-friendly-thing
 Redirect /thetop30kidfriendlythingstodoinnaples /the-top-30-kid-friendly-things-to-do-in-naples.html
 
 RewriteEngine On
-RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R]
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]
 
 # Expire images header
 
